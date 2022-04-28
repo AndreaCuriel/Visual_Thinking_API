@@ -32,6 +32,6 @@ describe("PartnerService Test", () => {
       visualpartners,
       500
     );
-    expect(partners.length).toBe(2);
+    expect(partners.length).toBe(1);
   });
 });
