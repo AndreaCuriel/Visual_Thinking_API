@@ -25,4 +25,13 @@ describe("PartnerService Test", () => {
     );
     expect(partners.length).toBe(1);
   });
+
+  test("3) Regresar todos los partners que tengan creditos mayores a x", () => {
+    const visualpartners = [{ credits: 30 }, { credits: 501 }];
+    const partners = PartnerService.getPartnersWithNumCredits(
+      visualpartners,
+      500
+    );
+    expect(partners.length).toBe(2);
+  });
 });
