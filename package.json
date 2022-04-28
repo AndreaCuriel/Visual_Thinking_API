@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AndreaCuriel/Visual_Thinking_API/issues"
   },
-  "homepage": "https://github.com/AndreaCuriel/Visual_Thinking_API#readme"
+  "homepage": "https://github.com/AndreaCuriel/Visual_Thinking_API#readme",
+  "dependencies": {
+    "jest": "^26.0.0"
+  }
 }
