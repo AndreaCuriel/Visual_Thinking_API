@@ -14,7 +14,7 @@ describe("PartnerService Test", () => {
     expect(partners[0].name).toBe("Andrea");
   });
 
-  test("1) regresar todo los email de los partners con certificado", () => {
+  test("2) regresar todo los email de los partners con certificado", () => {
     const visualpartners = [
       { haveCertification: true, email: "Andrea@gmail.com" },
       { haveCertification: false, email: "Carlo@gmail.com" },
@@ -23,6 +23,6 @@ describe("PartnerService Test", () => {
       visualpartners,
       true
     );
-    expect(partners.length).toBe(2);
+    expect(partners.length).toBe(1);
   });
 });
