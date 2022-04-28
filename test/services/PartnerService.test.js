@@ -8,6 +8,6 @@ describe("PartnerService Test", () => {
       { name: "Carlo" },
     ];
     const partners = PartnerService.getAllPartners(visualpartners);
-    expect(partners[0].name).toBe("Andrea1");
+    expect(partners[0].name).toBe("Andrea");
   });
 });
