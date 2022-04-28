@@ -9,6 +9,6 @@ describe("PartnerController Test", () => {
   test("2) Regresar emial de los Partners con certificado", () => {
     const virtualpartners =
       PartnerController.getPartnersEmailWthiCertification(true);
-    expect(virtualpartners[0]).toBe("Todd@visualpartnership.xyz");
+    expect(virtualpartners[0]).toBe("Todd@visualpartnership.xz");
   });
 });
